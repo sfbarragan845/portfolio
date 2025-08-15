@@ -16,6 +16,14 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <script type="module">
+            import { injectSpeedInsights } from "https://esm.sh/@vercel/speed-insights";
+            import { inject } from "https://esm.sh/@vercel/analytics";
+
+            injectSpeedInsights();
+            inject();
+        </script>
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
