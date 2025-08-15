@@ -5,9 +5,3 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
-
-
-import { injectSpeedInsights } from '@vercel/speed-insights';
-import { inject } from "@vercel/analytics"
-
-injectSpeedInsights();
